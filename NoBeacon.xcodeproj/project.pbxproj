@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		542EEC531BD4DA1A004598FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EEC521BD4DA1A004598FC /* main.m */; };
 		542EEC561BD4DA1A004598FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EEC551BD4DA1A004598FC /* AppDelegate.m */; };
-		542EEC591BD4DA1A004598FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EEC581BD4DA1A004598FC /* ViewController.m */; };
-		542EEC5C1BD4DA1A004598FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542EEC5A1BD4DA1A004598FC /* Main.storyboard */; };
 		542EEC5E1BD4DA1A004598FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542EEC5D1BD4DA1A004598FC /* Assets.xcassets */; };
 		542EEC611BD4DA1A004598FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542EEC5F1BD4DA1A004598FC /* LaunchScreen.storyboard */; };
 		542EEC6C1BD4DA1B004598FC /* NoBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EEC6B1BD4DA1B004598FC /* NoBeaconTests.m */; };
 		542EEC771BD4DA1B004598FC /* NoBeaconUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EEC761BD4DA1B004598FC /* NoBeaconUITests.m */; };
+		542EEC861BD4DB18004598FC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EEC851BD4DB18004598FC /* RootViewController.m */; };
+		542EEC8C1BD4E81E004598FC /* BluetoothModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EEC8B1BD4E81E004598FC /* BluetoothModel.m */; };
+		542EEC901BD4E836004598FC /* BluetoothCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 542EEC8E1BD4E836004598FC /* BluetoothCell.m */; };
+		542EEC911BD4E836004598FC /* BluetoothCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 542EEC8F1BD4E836004598FC /* BluetoothCell.xib */; };
+		542EEC931BD4EB49004598FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542EEC921BD4EB49004598FC /* Foundation.framework */; };
+		544F61401BFC6F70004750A1 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 544F613F1BFC6F70004750A1 /* image1.png */; };
+		544F61431BFC71B8004750A1 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544F61421BFC71B8004750A1 /* NewViewController.m */; };
+		547186C21BDDF76C00DD01D6 /* CharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547186C11BDDF76C00DD01D6 /* CharacterViewController.m */; };
+		547186C51BDDFAE200DD01D6 /* CharacterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 547186C41BDDFAE200DD01D6 /* CharacterModel.m */; };
+		54EEA5E81BDF700E002717C1 /* ReadOrWriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EEA5E71BDF700E002717C1 /* ReadOrWriteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +47,6 @@
 		542EEC521BD4DA1A004598FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		542EEC541BD4DA1A004598FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		542EEC551BD4DA1A004598FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		542EEC571BD4DA1A004598FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		542EEC581BD4DA1A004598FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		542EEC5B1BD4DA1A004598FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		542EEC5D1BD4DA1A004598FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		542EEC601BD4DA1A004598FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		542EEC621BD4DA1A004598FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,23 @@
 		542EEC721BD4DA1B004598FC /* NoBeaconUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoBeaconUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542EEC761BD4DA1B004598FC /* NoBeaconUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoBeaconUITests.m; sourceTree = "<group>"; };
 		542EEC781BD4DA1B004598FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542EEC841BD4DB18004598FC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		542EEC851BD4DB18004598FC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		542EEC8A1BD4E81E004598FC /* BluetoothModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothModel.h; sourceTree = "<group>"; };
+		542EEC8B1BD4E81E004598FC /* BluetoothModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothModel.m; sourceTree = "<group>"; };
+		542EEC8D1BD4E836004598FC /* BluetoothCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCell.h; sourceTree = "<group>"; };
+		542EEC8E1BD4E836004598FC /* BluetoothCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothCell.m; sourceTree = "<group>"; };
+		542EEC8F1BD4E836004598FC /* BluetoothCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothCell.xib; sourceTree = "<group>"; };
+		542EEC921BD4EB49004598FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		544F613F1BFC6F70004750A1 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		544F61411BFC71B8004750A1 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		544F61421BFC71B8004750A1 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		547186C01BDDF76C00DD01D6 /* CharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterViewController.h; sourceTree = "<group>"; };
+		547186C11BDDF76C00DD01D6 /* CharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterViewController.m; sourceTree = "<group>"; };
+		547186C31BDDFAE200DD01D6 /* CharacterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterModel.h; sourceTree = "<group>"; };
+		547186C41BDDFAE200DD01D6 /* CharacterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterModel.m; sourceTree = "<group>"; };
+		54EEA5E61BDF700E002717C1 /* ReadOrWriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadOrWriteViewController.h; sourceTree = "<group>"; };
+		54EEA5E71BDF700E002717C1 /* ReadOrWriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadOrWriteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				542EEC931BD4EB49004598FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,7 @@
 		542EEC451BD4DA1A004598FC = {
 			isa = PBXGroup;
 			children = (
+				542EEC921BD4EB49004598FC /* Foundation.framework */,
 				542EEC501BD4DA1A004598FC /* NoBeacon */,
 				542EEC6A1BD4DA1B004598FC /* NoBeaconTests */,
 				542EEC751BD4DA1B004598FC /* NoBeaconUITests */,
@@ -101,11 +125,20 @@
 		542EEC501BD4DA1A004598FC /* NoBeacon */ = {
 			isa = PBXGroup;
 			children = (
+				544F613F1BFC6F70004750A1 /* image1.png */,
+				542EEC891BD4E7F8004598FC /* Controller */,
+				542EEC881BD4E7ED004598FC /* Model */,
+				542EEC871BD4E7D5004598FC /* View */,
 				542EEC541BD4DA1A004598FC /* AppDelegate.h */,
 				542EEC551BD4DA1A004598FC /* AppDelegate.m */,
-				542EEC571BD4DA1A004598FC /* ViewController.h */,
-				542EEC581BD4DA1A004598FC /* ViewController.m */,
-				542EEC5A1BD4DA1A004598FC /* Main.storyboard */,
+				542EEC841BD4DB18004598FC /* RootViewController.h */,
+				542EEC851BD4DB18004598FC /* RootViewController.m */,
+				544F61411BFC71B8004750A1 /* NewViewController.h */,
+				544F61421BFC71B8004750A1 /* NewViewController.m */,
+				547186C01BDDF76C00DD01D6 /* CharacterViewController.h */,
+				547186C11BDDF76C00DD01D6 /* CharacterViewController.m */,
+				54EEA5E61BDF700E002717C1 /* ReadOrWriteViewController.h */,
+				54EEA5E71BDF700E002717C1 /* ReadOrWriteViewController.m */,
 				542EEC5D1BD4DA1A004598FC /* Assets.xcassets */,
 				542EEC5F1BD4DA1A004598FC /* LaunchScreen.storyboard */,
 				542EEC621BD4DA1A004598FC /* Info.plist */,
@@ -138,6 +171,34 @@
 				542EEC781BD4DA1B004598FC /* Info.plist */,
 			);
 			path = NoBeaconUITests;
+			sourceTree = "<group>";
+		};
+		542EEC871BD4E7D5004598FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				542EEC8D1BD4E836004598FC /* BluetoothCell.h */,
+				542EEC8E1BD4E836004598FC /* BluetoothCell.m */,
+				542EEC8F1BD4E836004598FC /* BluetoothCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		542EEC881BD4E7ED004598FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				542EEC8A1BD4E81E004598FC /* BluetoothModel.h */,
+				542EEC8B1BD4E81E004598FC /* BluetoothModel.m */,
+				547186C31BDDFAE200DD01D6 /* CharacterModel.h */,
+				547186C41BDDFAE200DD01D6 /* CharacterModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		542EEC891BD4E7F8004598FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				542EEC611BD4DA1A004598FC /* LaunchScreen.storyboard in Resources */,
+				544F61401BFC6F70004750A1 /* image1.png in Resources */,
 				542EEC5E1BD4DA1A004598FC /* Assets.xcassets in Resources */,
-				542EEC5C1BD4DA1A004598FC /* Main.storyboard in Resources */,
+				542EEC911BD4E836004598FC /* BluetoothCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				542EEC591BD4DA1A004598FC /* ViewController.m in Sources */,
 				542EEC561BD4DA1A004598FC /* AppDelegate.m in Sources */,
 				542EEC531BD4DA1A004598FC /* main.m in Sources */,
+				542EEC8C1BD4E81E004598FC /* BluetoothModel.m in Sources */,
+				542EEC901BD4E836004598FC /* BluetoothCell.m in Sources */,
+				547186C21BDDF76C00DD01D6 /* CharacterViewController.m in Sources */,
+				54EEA5E81BDF700E002717C1 /* ReadOrWriteViewController.m in Sources */,
+				544F61431BFC71B8004750A1 /* NewViewController.m in Sources */,
+				542EEC861BD4DB18004598FC /* RootViewController.m in Sources */,
+				547186C51BDDFAE200DD01D6 /* CharacterModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +376,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		542EEC5A1BD4DA1A004598FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				542EEC5B1BD4DA1A004598FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		542EEC5F1BD4DA1A004598FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -414,9 +474,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NoBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huaying.NoBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -425,9 +487,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NoBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.huaying.NoBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +562,7 @@
 				542EEC7D1BD4DA1B004598FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		542EEC7E1BD4DA1B004598FC /* Build configuration list for PBXNativeTarget "NoBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +571,7 @@
 				542EEC801BD4DA1B004598FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		542EEC811BD4DA1B004598FC /* Build configuration list for PBXNativeTarget "NoBeaconUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +580,7 @@
 				542EEC831BD4DA1B004598FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
